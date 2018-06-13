@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.resume{
+   height: 60px;
+   background-color: #848484;
+
+}
+.fontset{
+  font-size: 20px;
+  line-height: 20px;
+   color:#FFFFFF;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+}
+
+.text-right{
+  height: 600px;
+  margin-bottom: 30px;
+}
+.info{
+  border-bottom: 2px solid #F5F5F5;
+}
+.info-item1{
+  height: 120px;
+  width: 100px;
+  background-color: #D6D6D6;
+  text-align: center;
+  line-height: 120px;
+  float: left;
+}
+.info-item2{
+  height: 120px;
+  line-height: 120px;
+}
+
+.info-item1{
+  font-weight: bold;
+}
+.info-item2 span{
+  font-weight: bold;
+}
+
+.skill{
+  border-bottom: 2px solid #F5F5F5;
+}
+.skill-item1{
+  height: 120px;
+  width: 100px;
+  background-color: #D6D6D6;
+  text-align: center;
+  line-height: 120px;
+  float: left;
+}
+.skill-item2{
+  height: 120px;
+}
+
+.skill-item1{
+  font-weight: bold;
+}
+.skill-item2-text{
+  position: relative;
+  top: 20px;
+}
+.skill-item2 .per{
+  display: inline-block;
+}
+.education{
+  border-bottom: 2px solid #F5F5F5;
+}
+.education-item1{
+  height: 120px;
+  width: 100px;
+  background-color: #D6D6D6;
+  text-align: center;
+  line-height: 120px;
+  float: left;
+}
+.education-item2{
+  height: 120px;
+}
+
+.education-item1{
+  font-weight: bold;
+}
+.education-item2-text{
+  position: relative;
+  top: 20px;
+}
+.education-item2 .per{
+  display: inline-block;
+}
+.project{
+  border-bottom: 2px solid #F5F5F5;
+}
+.project-item1{
+  height: 120px;
+  width: 100px;
+  background-color: #D6D6D6;
+  text-align: center;
+  line-height: 120px;
+  float: left;
+}
+.project-item2{
+  height: 120px;
+}
+
+.project-item1{
+  font-weight: bold;
+}
+.project-item2-text{
+  position: relative;
+  top: 20px;
+}
+.project-item2 .per{
+  display: inline-block;
+}

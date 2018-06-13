@@ -1,0 +1,65 @@
+.out{
+  margin-top: 20px;
+}
+.block{
+  display: inline-block;
+}
+.resume-item1{
+  font-size:30px;
+  font-weight: bold;
+}
+.info-item1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.info-item2 {
+  font-size: 15px;
+  font-weight:bold;
+}
+.info-item2 span{
+  font-size: 16px;
+  font-weight:bold;
+  margin-left: 20px;
+}
+.info-item2 .info-item2-left{
+  margin-left: 0px;
+}
+.skill-item1{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.skill-item2{
+  font-size: 15px;
+  font-weight:bold;
+}
+.skill-item2 span{
+  font-size: 16px;
+  font-weight:bold;
+}
+.education-item1{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.education-item2{
+  font-size: 15px;
+  font-weight:bold;
+}
+.education-item2 span{
+  font-size: 16px;
+  font-weight:bold;
+}
+.project-item1{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.project-item2{
+  font-size: 15px;
+  font-weight:bold;
+}
+.project-item2 span{
+  font-size: 16px;
+  font-weight:bold;
+}

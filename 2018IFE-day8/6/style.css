@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei";
+}
+.item{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header{
+  background-color: #333333;
+  height: 75px;
+}
+.logo{
+  color: #FFF;
+  font-size: 20px;
+  height: 80px;
+  position: absolute;
+  top:27px;
+}
+
+.sec{
+  position: absolute;
+  right: 0;
+  top:10px;
+}
+.sec a{
+  font-size: 10px;
+  color: #F5FCFF;
+}
+.banner{
+  height: 275px;
+  background-color: #66BB33;
+}
+.point{
+  position: absolute;
+  right: 0;
+  top: 211px;
+
+}
+.point span{
+  display: inline-block;
+  width: 25px;
+  height: 30px;
+  font-size: 10px;
+  border:  0.1px solid #35601C;
+  background-color: #B2DD99;
+  text-align: center;
+  line-height: 25px;
+}
+.item .point .point-active{
+  height: 50px;
+  background-color: #FFF;
+  border:  1px solid #35601C;
+}
+.item .point .point-active div{
+  margin-top: 20px;
+}
+
+article nav{
+  height: 65px;
+  border-bottom: 1px solid #CFCFCF;
+}
+.seti{
+  height: 65px;
+  position: absolute;
+  left: 0;
+  top: 19px;
+}
+.left{
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  line-height: 45px;
+  width: 100px;
+  height: 45px;
+  border: 0.3px solid #CFCFCF;
+  background-color: #EEEEEE;
+  box-sizing:content-box;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 0;
+}
+.seti .seti-ative{
+  background-color: #fff;
+  height: 47px;
+  border-bottom: 0;
+}
+.content-all{
+  margin-top: 20px;
+  display: flex;
+}
+.content1{
+  height: 160px;
+  border: 1px solid #CFCFCF;
+  display: inline-block;
+  flex: 1;
+  margin-right: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 80px;
+
+}
+.content-all .content1-right{
+  margin-right: auto;
+}
+footer{
+  height: 75px;
+  background-color: #666666;
+  margin-top: 20px;
+}
+footer .fot{
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link id="resume" rel="stylesheet" href="css/style_3.css">
+    <title></title>
+    <style media="screen">
+      input{
+        width: 50px;
+        height: 30px;
+        background-color:#65A4FA;
+        border: 1px solid #FFFFFF;
+      }
+    </style>
+    <script type="text/javascript">
+      window.onload=function(){
+        var oBtn1=document.getElementById('btn1');
+        var oBtn2=document.getElementById('btn2');
+        var oBtn3=document.getElementById('btn3');
+        var oRe=document.getElementById('resume');
+        oBtn1.onclick=function(){
+          oRe.href="css/style_1.css";
+        };
+        oBtn2.onclick=function(){
+          oRe.href="css/style_2.css";
+        };
+        oBtn3.onclick=function(){
+          oRe.href="css/style_3.css";
+        };
+      };
+    </script>
+  </head>
+  <body>
+
+    <div class="resume out">
+      <div class="resume-item1">
+        <div class="fontset">简历</div>
+      </div>
+    </div>
+
+    <div class="fix">  </div>
+
+    <div class="text-right">
+      <div class="info  out">
+        <div class="info-item1 ">
+          基本信息
+        </div>
+        <div class="info-item2 out">
+          <span class="info-item2-left">姓名</span> 张三
+          <span>性别</span> 男
+          <span>应聘职位</span> Web前端工程师
+        </div>
+      </div>
+      <div class="info out">
+        <div class="info-item1">
+          联系方式
+        </div>
+        <div class="info-item2 out">
+          <span class="info-item2-left">手机</span> 12345678910
+          <span>Email</span> <a href="#">dnzel@foxmail.com</a>
+          <span>个人主页</span> <a href="github.com"> Github</a>
+        </div>
+      </div>
+
+      <div class="skill out">
+        <div class="skill-item1">
+          能力描述
+        </div>
+        <div class="skill-item2 out">
+          <div class="skill-item2-text">
+            <p class="per">技术能力</p>
+            <P class="per ">能掌握HTML、CSS、Javascript</P>
+            <p style="width:800px"></p>
+            <P class="per ">综合能力</P>
+            <P class="per">良好的沟通、主动积极、努力勤奋</P>
+          </div>
+        </div>
+      </div>
+
+      <div class="education out">
+        <div class="education-item1">
+          教育经历
+        </div>
+        <div class="education-item2 out">
+          <div class="education-item2-text">
+            <p class="per">大专</p>
+            <P class="per ">江西商学院</P>
+            <p style="width:800px"></p>
+            <P class="per">本科</P>
+            <P class="per "  >南昌大学</P>
+          </div>
+        </div>
+      </div>
+
+      <div class="project out">
+        <div class="project-item1">
+          项目经历
+        </div>
+        <div class="project-item2 out">
+          <div class="project-item2-text">
+            <p class="per">XX项目</p>
+            <P class="per ">负责XXXXX</P>
+            <p style="width:800px"></p>
+            <P class="per">XX项目</P>
+            <P class="per ">负责XXXXX</P>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input type="button" name="" id="btn1" value="简历1" />
+    <input type="button" name="" id="btn2" value="简历2" />
+    <input type="button" name="" id="btn3" value="简历3" />
+  </body>
+</html>

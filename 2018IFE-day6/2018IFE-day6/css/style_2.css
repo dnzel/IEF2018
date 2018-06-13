@@ -1,0 +1,82 @@
+.out{
+  margin-top: 20px;
+}
+
+}
+.fix{
+  overflow: hidden;
+}
+.resume-item1{
+  font-size:40px;
+  font-weight: bold;
+  float: left;
+  width: 200px;
+  height: 1000px;
+  background-color:#65A4FA;
+}
+.fontset{
+  color:#FFFFFF;
+  text-align: center;
+  margin-top: 100px;
+}
+.text-right{
+  margin-left:30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.info-item1{
+  font-size: 30px;
+  font-weight: bold;
+}
+.info-item2 {
+  font-size: 15px;
+  font-weight:bold;
+}
+.info-item2 span{
+  font-size: 16px;
+  font-weight:bold;
+  margin-left: 20px;
+}
+.info-item2 .info-item2-left{
+  margin-left: 0px;
+}
+.skill-item1{
+  font-size:30px;
+  font-weight: bold;
+}
+
+.skill-item2{
+  font-size: 15px;
+  font-weight:bold;
+}
+.skill-item2 .per{
+  font-size: 20px;
+  font-weight:bold;
+}
+.education-item1{
+  font-size:30px;
+  font-weight: bold;
+}
+
+.education-item2{
+  font-size: 15px;
+  font-weight:bold;
+}
+.education-item2 .per{
+  font-size: 20px;
+  font-weight:bold;
+}
+.project-item1{
+  font-size:30px;
+  font-weight: bold;
+}
+
+.project-item2{
+  font-size: 15px;
+  font-weight:bold;
+}
+.project-item2 .per{
+  font-size: 20px;
+  font-weight:bold;
+}

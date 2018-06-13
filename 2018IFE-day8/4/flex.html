@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    *{
+      padding: 0;
+      margin: 0;
+     }
+      .item{
+        background-color: green;
+        box-sizing: content-box;
+        display: flex;
+      }
+      .left{
+        height: 800px;
+        width: 300px;
+        background-color: red;
+        flex: 0 0 auto;
+      }
+      .mid{
+        height: 800px;
+        background-color: blue;
+
+        flex: 1 1 auto;
+      }
+      .right{
+        background-color: yellow;
+        height: 800px;
+          width: 200px;
+        flex:0 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item">
+      <div class="left">实现一个三栏布局，左侧固定宽度，右侧固定宽度，</div>
+      <div class="mid">中间部分宽度</div>
+      <div class="right">随浏览器宽度变化而自适应变化</div>
+    </div>
+  </body>
+</html>

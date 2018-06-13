@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .item{
+        border: 2px solid yellow;
+      }
+      .left{
+        height: 80px;
+        width: 80px;
+        border: 1px solid black;
+        float: left;
+      }
+      .right{
+        width: 50px;
+        height: 50px;
+        border: 1px solid red;
+        float: left;
+      }
+      .clearfloat{
+zoom:1;
+}
+.clearfloat:after{
+display:block;
+height:0;
+content:"";
+clear:both;
+visibility:hidden;
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="item clearfloat">
+      <div class="left">
+
+      </div>
+<div class="right"></div>
+    </div>
+  </body>
+</html>

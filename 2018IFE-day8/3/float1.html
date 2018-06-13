@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    *{
+      padding: 0;
+      margin: 0;
+     }
+      .item{
+        background-color: green;
+        box-sizing: content-box;
+      }
+      .left{
+        height: 800px;
+        background-color: red;
+        margin-right: 300px;
+
+      }
+      /*css的根据dom顺序来渲染的，如果dom顺序在后面，在设置float：right的时候，上一级的
+      块级元素已经渲染完了，而且完成了宽度自适应，就是已经满了，然后下面的浮动元素本来是块级元素
+      在设置了浮动之后，父元素收缩，父元素边框就覆盖到了left，right开始上浮，结果碰到了父元素的边框
+      于是就停止了*/
+      .right{
+        background-color: yellow;
+        height: 800px;
+        width: 300px;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item">
+      <div class="left">实现一个两栏布局，右侧固定宽度，</div>
+      <div class="right">左侧根据浏览器宽度进行自适应变化</div>
+    </div>
+  </body>
+</html>

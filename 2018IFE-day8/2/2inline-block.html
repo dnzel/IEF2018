@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    *{
+      padding: 0;
+      margin: 0;
+    }
+      .item{
+        background-color: green;
+        box-sizing: content-box;
+        font-size: 0;
+      }
+      .left{
+        width: 300px;
+        height: 800px;
+        background-color: red;
+        display: inline-block;
+        font-size: 20px;
+      }
+      /*使用了双inline-block方式，使用calc函数计算右侧宽度的值，但是注意的地方是父元素要
+      设置字体为0.*/
+      .right{
+        display: inline-block;
+        background-color: yellow;
+        width: calc(100% - 300px);
+        height: 800px;
+        font-size: 20px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item">
+      <div class="left">
+        实现一个两栏布局，左侧固定宽度
+      </div>
+      <div class="right">
+        右侧根据浏览器宽度进行自适应变化
+      </div>
+    </div>
+  </body>
+</html>
